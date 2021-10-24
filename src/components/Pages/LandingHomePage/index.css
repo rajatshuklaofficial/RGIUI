@@ -1,0 +1,40 @@
+.mainDivHomePage{
+	width: auto;
+}
+.sloganText{
+	font-size: 20px;
+    text-align: center;
+    padding: 12px;
+}
+.roundButton{
+	min-width: 100px;
+	border: 1px solid;
+	width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+}
+.infoParagraph{
+	font-size: 14px;
+	text-align: left;
+}
+.squareButton{
+	width: auto;
+	max-width: 150px;
+	height: 30px;
+	border: .5px solid #3B8905;
+	color: #3B8905;
+	background: #D3D3D3;
+	text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+}
+.textButton{
+	color: #0B89FB;
+	font-size: 14px;
+}
+.flexContainer{
+	display: flex;
+}
