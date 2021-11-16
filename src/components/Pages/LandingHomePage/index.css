@@ -3,8 +3,11 @@
 }
 .sloganText{
 	font-size: 20px;
-    text-align: center;
+	display: flex;
+    justify-content: left;
     padding: 12px;
+    margin: auto;
+    width: 80%;
 }
 .roundButton{
 	min-width: 100px;
@@ -37,4 +40,13 @@
 }
 .flexContainer{
 	display: flex;
+	margin: auto;
+	width: 80%;
+}
+.verticalFlex{
+	height: 100vh;
+    max-height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }

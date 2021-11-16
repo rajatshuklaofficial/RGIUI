@@ -33,30 +33,30 @@ useEffect(() => {
     }
   })
   
-
-
 	return (
     <div className='mainDivHomePage'>
     <title>Home Page</title>
     <Navbar />
+    <div>
     <div className='sloganText'>
       Matching Great oppartunities with world-class companies
     </div>
     <div className='flexContainer'>
-      <div>
+      <div className='verticalFlex'>
         <div className='roundButton'>Buisness</div>
         <div className='infoParagraph'>Relevant Candidates for Enterprises
 RozgarInfo lets you engage or source top employees, while also enabling you to assess, interview and upskill them with ease.</div>
         <div className='squareButton'>HIRE NOW</div>
         <div className='textButton'>Post Jobs</div>
       </div>
-      <div>
+      <div className='verticalFlex'>
         <div className='roundButton'>Job Seekers</div>
         <div className='infoParagraph'>Relevant Jobs for Freshers and Experienced
 RozgarInfo lets you engage in searching top employers, while also enabling you to assess, interview and upskill them with ease.</div>
         <div className='squareButton'>SEARCH JOB NOW</div>
         <div className='textButton'>Post your resume</div>
       </div>
+    </div>
     </div>
     </div>
   )
